@@ -1,0 +1,182 @@
+Integer and Array:
+-----------------
+		1. How do you find all the even numbers from a list of integers using Stream functions?
+		2. How can you determine all the numbers in a list that start with the digit '1' using Stream functions?
+		3. What method can you use to identify duplicate elements in a given list of integers using Stream functions?
+		4. How can you retrieve the first element of a list using Stream functions?
+		5. How do you count the total number of elements in a list using Stream functions?
+		6. What is the approach to find the maximum value element present in a list using Stream functions?
+		7. How can you sort all values in a list of integers using Stream functions?
+		8. How do you sort all values in a list in descending order using Stream functions?
+		9. How can you check if any value appears at least twice in an integer array?
+		10. What is the method to get the current date and time using the Java 8 Date and Time API?
+		11. How can you concatenate two Streams in Java 8?
+		12. How do you perform a cube operation on list elements and filter out numbers greater than 50?
+		13. What is the method to sort an array and then convert the sorted array into a Stream?
+		14. How do you find the maximum element in an array using Java 8 features?
+		15. How do you check for duplicates in an array of integers using Stream functions?
+		16. How can you print the multiples of 5 from a list of integers?
+		17. How do you reverse an integer array using Java 8 streams?
+		18. What is the method to generate Fibonacci numbers using Java 8 Stream functions?
+		19. How do you generate a list of odd numbers using Java 8 Stream functions?
+		20. How can you generate a list of even numbers using Java 8 Stream functions?
+		21. How do you check if a number is prime using Java 8 streams?
+		22. How can you find the first three minimum and maximum numbers in a list using Stream functions?
+		23. How can you find the sum of an array using Java 8 Stream functions?
+		24. What approach can be used to merge two unsorted arrays into a single sorted array using Java 8 streams?
+
+
+		1. How can you convert a List of integers to an array using Java 8 Stream functions?
+		2. How do you create a List from an array of integers using Java 8 features?
+		3. What is the method to remove all even numbers from a List of integers using Java 8?
+		4. How can you find the average of a List of integers using Stream functions?
+		5. What approach can you use to find the index of a specific element in an array of integers using Java 8?
+		6. How do you check if a List of integers contains a specific number using Java 8?
+		7. How can you transform a List of integers by multiplying each element by 2 using Java 8 Stream functions?
+		8. What method can you use to flatten a List of Lists of integers into a single List using Java 8?
+		9. How do you partition a List of integers into two groups (even and odd) using Java 8?
+		10. What is the approach to find the second largest number in a List of integers using Stream functions?
+		11. How can you check if a List of integers is sorted in ascending order using Java 8?
+		12. How do you find all unique elements in two arrays using Java 8?
+		13. What method can you use to merge two sorted arrays into a single sorted array using Java 8?
+		14. How can you find the longest consecutive sequence of integers in a List using Java 8?
+		15. What is the approach to replace all negative integers in a List with zero using Java 8 Stream functions?
+		16. How can you create a new List containing only the elements that appear more than once in the original List using Java 8?
+		17. How do you create a List of integers that are the squares of the original List using Java 8 Stream functions?
+		18. What is the method to shuffle the elements of a List of integers using Java 8?
+		19. How can you create a frequency map of integers from a List using Java 8 Stream functions?
+		20. How do you find the common elements between two Lists of integers using Java 8?
+
+String :
+--------
+Here are some questions related to your Java 8 string manipulation code:
+
+1. How can you reverse a string in Java 8 using streams?
+2. What methods can be used to remove special characters from a string?
+3. How can you convert a string to a list of characters while ignoring spaces?
+4. What is the significance of using `Collectors.joining()` in string manipulation?
+5. How can you find the count of each word in a sentence using Java 8 streams?
+6. How do you partition a list of integers into odd and even numbers using streams?
+7. What approach can you take to remove duplicates from a list while preserving the original order?
+8. How can you count the frequency of each character in a given string?
+9. What method would you use to sort a list of strings in reverse order?
+10. How can you find the maximum length string from a list?
+11. How do you filter strings that start with a number?
+12. How can you check if a given string is a palindrome using Java 8 streams?
+13. What is the method to find the most repeated element in a list using streams?
+14. How can you remove duplicates from an array of strings while preserving their original order?
+15. What is the approach to find the first repeated character in a string?
+16. How can you find the first non-repeated character in a string?
+17. How do you get the first and last element from an array using streams?
+18. How can you convert a string to uppercase using Java 8 stream functions?
+19. How do you count the total number of words in a string while ignoring duplicates?
+20. What is the method to remove consecutive duplicate words from a string?
+
+Here are Java 8-focused questions related to strings, lists, and character arrays:
+
+### String Questions
+1. How can you use `Stream` to split a string into a list of words?
+2. How can you use `Optional` to check for a substring within a string and handle cases where the substring is not found?
+3. What method would you use to convert a string to uppercase using Java 8's functional programming features?
+4. How can you count the number of distinct characters in a string using Java 8 streams?
+5. How can you check if a string starts with a specific prefix using `String::startsWith` in a stream?
+6. How do you find the longest word in a sentence using Java 8 streams?
+7. How can you use `Collectors.joining` to concatenate a list of strings into a single string?
+8. How do you filter out empty strings from a list of strings using Java 8 streams?
+9. What is the approach to convert a string to a map where each character is a key and its frequency is the value?
+10. How can you use method references to convert a list of strings to their lengths?
+
+### List Questions
+1. How do you create a list from an array of strings using `Arrays.stream()`?
+2. How can you find the maximum element in a list of integers using `Stream.max()`?
+3. What is the method to filter a list of integers to keep only even numbers using streams?
+4. How can you use `Collectors.toMap()` to create a map from a list of objects based on a specific attribute?
+5. How do you check if a list contains all elements of another list using Java 8 features?
+6. How can you use `flatMap` to flatten a list of lists into a single list?
+7. What is the approach to sort a list of strings by their length using Java 8 streams?
+8. How can you group elements of a list by a specific criterion using `Collectors.groupingBy()`?
+9. How do you use `List::forEach` to print all elements of a list?
+10. How can you convert a list of integers to a list of their squares using Java 8 streams?
+
+### Character Array Questions
+1. How can you convert a character array to a `List<Character>` using streams?
+2. What is the approach to count the frequency of each character in a character array using Java 8?
+3. How do you filter a character array to keep only vowels using streams?
+4. How can you convert a character array to a string using `String::new` in a stream?
+5. How do you check if a character array is a palindrome using Java 8 streams?
+6. What is the method to find the first unique character in a character array using `Collectors.toMap()`?
+7. How can you use `Arrays.parallelSort()` to sort a character array?
+8. How do you convert a list of character arrays to a single string using Java 8 features?
+9. How can you use streams to create a character array from a string with no spaces?
+10. What is the approach to transform a character array to uppercase using streams?
+
+
+Stream operation on Object:
+==========================
+Remove Duplicates from a List: Write a method that takes a list of integers and returns a new list with duplicates removed using Java 8 Streams.
+
+Sort Employees by Salary: Create a method that sorts a list of employees by their salary in ascending order using Streams.
+
+Count Employees by Gender: Write a method that counts the number of male and female employees in a given list and returns a map with gender as the key and count as the value.
+
+Find Employee with Minimum Salary: Implement a method that finds the employee with the minimum salary from a list and returns the employee object.
+
+Calculate Average Salary: Write a method that calculates the average salary of all employees in a list using Streams.
+
+List Employees in a Specific Department: Create a method that filters and returns a list of employees who work in a specified department.
+
+Get Employee Names Sorted by Age: Implement a method that returns a list of employee names sorted by age in ascending order.
+
+Group Employees by Department: Write a method that groups employees by their department and returns a map where the key is the department name and the value is a list of employees in that department.
+
+Find Highest Salary in Each Department: Create a method that finds the highest salary employee in each department and returns a map with department names as keys and employee objects as values.
+
+Separate Employees by Age: Implement a method that separates employees into two lists: those younger than or equal to 25 years old and those older than 25 years old.
+
+Count Employees by Experience: Write a method that counts the number of employees based on their years of experience, categorizing them into ranges (e.g., 0-2 years, 3-5 years, etc.).
+
+Find Employees with Salaries Above a Certain Threshold: Create a method that filters employees with a salary greater than a specified amount and returns their names.
+
+
+
+Here are the questions without additional explanations:
+
+1. Write a method that sorts a list of custom objects (e.g., `Product`) based on a specific field (e.g., `price`) using a `Comparator`.
+
+2. Create a method that takes a list of integers and returns a set of unique integers that are even numbers using Java Streams.
+
+3. Implement a method that takes a list of `Student` objects and groups them by their grade level, returning a map with the grade level as the key and the count of students in that grade as the value.
+
+4. Write a method that sorts a list of `Employee` objects by their salary in descending order and returns the top 5 highest-paid employees.
+
+5. Create a method that takes a list of `Order` objects and transforms it into a list of order IDs using streams.
+
+6. Implement a method that identifies and returns a list of duplicate elements from a list of strings using streams.
+
+7. Write a method that calculates the total revenue generated from a list of `Sales` objects using `Collectors.summingDouble()`.
+
+8. Create a method that takes a list of lists (e.g., `List<List<String>>`) and flattens it into a single list of strings.
+
+9. Implement a method that partitions a list of `Employee` objects into two lists: those who are full-time and those who are part-time.
+
+10. Write a method that groups a list of `Transaction` objects by their type and calculates the total amount for each type using `Collectors.groupingBy()` and `Collectors.summingDouble()`.
+
+11. Create a method that retrieves a list of distinct employee names from a list of `Employee` objects.
+
+12. Implement a method that filters a list of `Product` objects based on multiple criteria (e.g., category and price range) and returns the filtered list.
+
+13. Write a method that reduces a list of integers to their product using the `reduce()` method in streams.
+
+14. Create a method that collects a list of `Employee` objects into a `Map<String, Employee>` where the key is the employee's ID and the value is the employee object.
+
+15. Implement a method that sorts a list of `Employee` objects first by department and then by name.
+
+16. Write a method that takes a list of `Person` objects and converts it to a JSON string using a stream.
+
+17. Create a method that checks if all employees in a list are older than a certain age using the `allMatch()` method.
+
+18. Implement a method that retrieves the first N elements from a list of any object type using streams.
+
+19. Write a method that calculates the sum of the squares of a list of integers using the `map()` and `reduce()` methods.
+
+20. Create a method that chains multiple stream operations (filter, map, and collect) to process a list of objects in a single pipeline.
